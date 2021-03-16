@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace registration_regex
 {
@@ -11,6 +11,9 @@ namespace registration_regex
             Console.Write("Enter Your First Name::-");
             string FirstName = Console.ReadLine();
             Console.WriteLine(regexValidation.ValidateFirstName(FirstName));
+            Console.Write("Enter Your Last Name::-");
+            string LastName = Console.ReadLine();
+            Console.WriteLine(regexValidation.ValidateLastName(LastName));
         }
     }
 }
